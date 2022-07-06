@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0e3da;
+    overflow-x: hidden;
+}
+
+.zar-oyunu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0e3da;
+    height: 100% !important;
+}
+
+.zar-oyunu h1,
+.zar-oyunu h4 {
+    padding-top: 9px;
+}
+
+.fa-dice {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.label {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.oyuncular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input {
+    outline: none;
+    border: 1px solid darkorchid;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 7px;
+    font-size: 12px;
+}
+
+.oyuncular .ad-kaydet {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 7px;
+    color: bisque;
+    transition: color 0.5 s ease-in;
+    background: linear-gradient(to right, pink, darkorchid);
+    display: block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.oyuncular .ad-kaydet:hover {
+    color: black;
+}
+
+.button {
+    margin-top: 17px;
+    margin-bottom: 13px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: bisque;
+    transition: color 0.5 s ease-in;
+    background: linear-gradient(to right, pink, purple);
+    padding: 10px 20px;
+}
+
+.button:hover {
+    color: black;
+}
+
+.cevirme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    background-color: #f0e3da;
+}
+
+.cevir img {
+    width: 340px;
+    height: 265px;
+}
